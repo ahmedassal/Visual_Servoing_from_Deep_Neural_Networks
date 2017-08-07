@@ -240,8 +240,8 @@ def peturb_images( n_perturbed_imgs, bbox_ext, perturb_with_light, perturb_with_
 
 
 if __name__ == "__main__":
-  generate_imgs = False
-  perturb_with_light = False
+  generate_imgs = True
+  perturb_with_light = True
   perturb_with_occl = True
 
   np.random.seed(1234)
